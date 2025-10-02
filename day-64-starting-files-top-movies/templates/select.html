@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Select Movie{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="heading">Select Movie</h1>
+    {% for i in data %}
+  <p>
+    <a href="{{url_for('update', id = i.id)}}"> {{i['title']}} - {{i['release_date']}}</a>
+  </p>
+    {% endfor %}
+
+</div>
+{% endblock %}
