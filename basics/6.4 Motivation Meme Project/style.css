@@ -1,0 +1,25 @@
+.poster{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+ 
+#imgg{
+    width: 600px;
+    border: 5px solid gray;
+}
+
+body{
+    background-color: black;
+    font-family: "Manufacturing Consent";
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
